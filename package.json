@@ -3,6 +3,11 @@
   "displayName": "lvskripts",
   "description": "Provides snippets, syntax highlighting, bracket matching and folding in LVskripts files.",
   "version": "0.0.1",
+  "publisher": "Dzintars",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/superkaplis/LVskripts-extension"
+  },
   "engines": {
     "vscode": "^1.97.0"
   },
