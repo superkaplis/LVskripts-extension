@@ -1,0 +1,34 @@
+{
+  "name": "lvskripts",
+  "displayName": "lvskripts",
+  "description": "Provides snippets, syntax highlighting, bracket matching and folding in LVskripts files.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "lvskripts",
+        "aliases": [
+          "LVskripts",
+          "lvskripts"
+        ],
+        "extensions": [
+          ".lv"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "lvskripts",
+        "scopeName": "source.lv",
+        "path": "./syntaxes/lvskripts.tmLanguage.json"
+      }
+    ]
+  }
+}
