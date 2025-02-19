@@ -1,0 +1,177 @@
+{
+	"Konstruktors": {
+		"prefix": "konstruktors",
+		"body": [
+			"konstruktors() {",
+			"\tsuper();",
+			"\t$0",
+			"}"
+		]
+	},
+	"Klases definīcija": {
+		"prefix": "klase",
+		"isFileTemplate": true,
+		"body": [
+			"klase ${1:nosaukums} {",
+			"\tkonstruktors(${2:parametri}) {",
+			"\t\t$0",
+			"\t}",
+			"}"
+		]
+	},
+	"Imports": {
+		"prefix": "importēt",
+		"body": [
+			"importēt { $0 } from \"${1:modulis}\";"
+		]
+	},
+	"Printēt konsolē": {
+		"prefix": "printēt",
+		"body": [
+			"printēt($1);",
+			"$0"
+		]
+	},
+	"Mest kļūdu": {
+		"prefix": "mest",
+		"body": [
+			"mest jauns Error(\"$1\");",
+			"$0"
+		]
+	},
+	"Priekš cikls": {
+		"prefix": "priekš",
+		"body": [
+			"priekš (mainīgais ${1:indekss} = 0; ${1:indekss} < ${2:vērtība}; ${1:indekss}++) {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}"
+		]
+	},
+	"Priekš-iekša cikls": {
+		"prefix": "priekšiekš",
+		"body": [
+			"priekš (konstante ${1:atslēga} iekš ${2:objekts}) {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}"
+		]
+	},
+	"Priekš-no cikls": {
+		"prefix": "priekšno",
+		"body": [
+			"priekš (konstante ${1:element} no ${2:objekts}) {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}"
+		]
+	},
+	"Priekš-gaidīt-no cikls": {
+		"prefix": "priekšgaidītno",
+		"body": [
+			"priekš gaidīt (konstante ${1:elements} no ${2:objekts}) {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}"
+		]
+	},
+	"Funkcijas deklarācija": {
+		"prefix": "funkcija",
+		"body": [
+			"funkcija ${1:vārds}(${2:parametri}) {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}"
+		]
+	},
+	"Ja deklarācija": {
+		"prefix": "ja",
+		"body": [
+			"ja (${1:kondīcija}) {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}"
+		]
+	},
+	"Ja-citādi deklarācija": {
+		"prefix": "jacitādi",
+		"body": [
+			"ja (${1:kondīcija}) {",
+			"\t$TM_SELECTED_TEXT$0",
+			"} citādi {",
+			"\t",
+			"}"
+		]
+	},
+	"Jauns deklarācija": {
+		"prefix": "jauns",
+		"body": [
+			"konstante ${1:vārds} = jauns ${2:veids}(${3:arguments});$0"
+		]
+	},
+	"Izvēle deklarācija": {
+		"prefix": "izvēle",
+		"body": [
+			"izvēle (${1:atslēga}) {",
+			"\tgadījums ${2:vērtība}:",
+			"\t\t$0",
+			"\t\tpārtraukt;",
+			"",
+			"\tnoklusējums:",
+			"\t\t pārtraukt;",
+			"}"
+		]
+	},
+	"Kamēr deklarācija": {
+		"prefix": "kamēr",
+		"body": [
+			"kamēr (${1:kondīcija}) {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}"
+		]
+	},
+	"Darīt-kamēr deklarācija": {
+		"prefix": "darītkamēr",
+		"body": [
+			"darīt {",
+			"\t$TM_SELECTED_TEXT$0",
+			"} kamēr (${1:kondīcija});"
+		]
+	},
+	"Mēģināt-noķert deklarācija": {
+		"prefix": "mēģinātnoķert",
+		"body": [
+			"mēģināt {",
+			"\t$TM_SELECTED_TEXT$0",
+			"} noķert (${1:kļūda}) {",
+			"\t",
+			"}"
+		]
+	},
+	"Kavējums funkcija": {
+		"prefix": "kavējums",
+		"body": [
+			"kavējums(() => {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}, ${1:kavējumaLaiks});"
+		]
+	},
+	"Jauns Solījums": {
+		"prefix": "jaunssolījums",
+		"body": [
+			"jauns Solījums((resolve, reject) => {",
+			"\t$TM_SELECTED_TEXT$0",
+			"})"
+		]
+	},
+	"Asinhronas funkcijas deklarācija": {
+		"prefix": "asinhrons funkcija",
+		"body": [
+			"asinhrons funkcija ${1:vārds}(${2:parametri}) {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}"
+		]
+	},
+	"Asinhronas funkcijas ekspresija": {
+		"prefix": "asinhrons bulta funkcija",
+		"body": [
+			"asinhrons (${1:parametri}) => {",
+			"\t$TM_SELECTED_TEXT$0",
+			"}"
+		]
+	}
+}
