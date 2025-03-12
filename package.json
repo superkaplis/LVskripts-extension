@@ -1,8 +1,8 @@
 {
   "name": "lvskripts",
   "displayName": "lvskripts",
-  "description": "Provides snippets, syntax highlighting and other features for lvskripts programming language.",
-  "version": "0.0.1",
+  "description": "Provides snippets, syntax highlighting and other features for LVskripts programming language.",
+  "version": "1.0.0",
   "icon": "./icons/icon.png",
   "publisher": "Dzintars",
   "repository": {
